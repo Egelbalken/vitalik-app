@@ -69,7 +69,9 @@ const Nav = (props) => {
                     src={BarsTimes}
                     alt="bars-solid.svg"
                   ></img>
-                  <Link to="#home"><img className="logo-text" src={logoText} alt="logo"></img></Link>
+                  <Link to="#home">
+                    <img className="logo-text" src={logoText} alt="logo"></img>
+                  </Link>
                   <ul className="collapsed-ul">
                     <li className="collapsed-logo">
                       <Link to="#home">Home</Link>
@@ -110,7 +112,6 @@ const Nav = (props) => {
                 <li>
                   {navbar ? (
                     <form
-                      className="telegram-Btn-distancer"
                       action="https://t.me/vtlkvitalik"
                     >
                       <button type="submit" className={btnStyle.btnTelegram}>

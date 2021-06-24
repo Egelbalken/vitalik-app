@@ -1,35 +1,33 @@
 import React from 'react';
-import { animated } from 'react-spring';
-import 'resize-observer-polyfill';
-import { use3dEffect } from 'use-3d-effect';
 import styleCard from './Card3d.module.css';
+import Card from 'react-animated-3d-card';
 
 const Card3d = (props) => {
-  const ref = React.useRef(null);
-  const { style, ...mouseHandlers } = use3dEffect(ref);
-
   return (
-    <animated.div
-      ref={ref}
+    <Card
       className={styleCard['card-inner']}
       style={{
         background: `${props.bgcolor}`,
+        width: '350px',
+        height: '450px',
         backgroundColor: `${props.bgcolor}`,
         backgroundImage: `url(${props.image})`,
         backgroundPosition: 'center center',
-        filter: 'grayscale(100%)',
-        backgroundSize: '',
+        backgroundSize: '130%',
         backgroundRepeat: 'none',
+        cursor: 'none',
         zIndex: '1',
-        ...style,
+        overflowX: 'hidden',
+        transition: '0.5s'
       }}
-      {...mouseHandlers}
+      cursorPointer="false"
+      borderRadius="0px"
     >
       <div>
         <h3 className={styleCard.h3}>{props.title}</h3>
         <p className={styleCard.p}>{props.message}</p>
       </div>
-    </animated.div>
+    </Card>
   );
 };
 

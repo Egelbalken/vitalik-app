@@ -6,12 +6,13 @@
 
 .card:hover {
   transition: 1s;
+  filter: 'normal';
 }
 
 .image {
-  width: 50px;
+  width: 20px;
   margin-left: -50px;
-  display: inline-block;
+  display: block;
   zoom: 1;
   overflow: hidden;
 }
@@ -110,4 +111,3 @@
     margin-top: 80px;
   }
 }
-

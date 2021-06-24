@@ -13,18 +13,7 @@
   z-index: 100;
   animation: 0.5s ease-out 0s 1 slideup;
 }
-/* This section calls the slideInFromLeft animation we defined above */
 
-.telegrambtn {
-  margin-top: -110px;
-  border-bottom: none !important;
-  transition: 0.2s ease-out;
-}
-
-.telegram-Btn-distancer {
-  margin-left: 23px;
-  transition: 0.2s ease-out;
-}
 
 /* Upper on active effect*/
 .nav.active {
@@ -35,9 +24,11 @@
 }
 
 .nav.active ul li a {
-  margin: 15px 36px;
   transition: 0.2s ease-out;
   color: black;
+  margin-top: 15px;
+  margin-left: 26px;
+  margin-right: 26px;
 }
 
 .nav ul li {
@@ -63,14 +54,16 @@
   margin-top: 14px;
   margin-right: 21px;
   margin-left: 21px;
-  font-size: 16px;
+  font-size: 16.5px;
   transition: 0.2s ease-out;
 }
 
 .nav ul li a {
   transition: 0.2s ease-out;
-  margin: 15px 36px;
-  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 26px;
+  margin-right: 26px;
+  font-size: 16.5px;
   color: lightgray;
   display: inline-block;
   border-bottom: 0px solid white;
@@ -80,13 +73,11 @@
 .nav ul li a:hover {
   transition: 0.2s ease-out;
   color: white;
-
 }
 
 .nav.active ul li a:hover {
   transition: 0.2s ease-out;
   color: black;
-
 }
 
 .nav ul li a::after {
@@ -177,13 +168,13 @@
 
 @media (max-width: 940px) {
   .nav ul li a {
-    margin: 15px 8px;
-    font-size: 15px;
+    margin: 15px 10px;
+    font-size: 16.5px;
   }
 
   .nav.active ul li a {
-    margin: 15px 8px;
-    font-size: 15px;
+    margin: 15px 10px;
+    font-size: 16.5px;
   }
 
   .nav ul li a:hover {

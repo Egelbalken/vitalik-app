@@ -8,7 +8,7 @@
 }
 
 .active {
-  width: 23px;
+  width: 24px;
   float: left;
   padding-bottom: 0px;
   transition: 0.3s;
@@ -16,7 +16,7 @@
   margin-left: 10%;
 }
 .blackBrandLogo {
-  width: 23px;
+  width: 24px;
   float: left;
   margin-left: 10px;
   padding-bottom: 0px;
