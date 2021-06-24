@@ -16,7 +16,7 @@
   width: 50%;
   height: 50%;
   position: fixed;
-  z-index: 1;
+  z-index: -1;
 }
 
 .title {
@@ -39,6 +39,7 @@
   display: block;
   position: relative;
   cursor: pointer;
+  list-style: none;
 }
 
 .tobuylink h4 {

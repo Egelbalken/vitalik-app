@@ -17,13 +17,9 @@ const HeroSection = (props) => {
           <h2 className={style.h2}>{props.message}</h2>
         </div>
         {props.children}
-        <ul>
-          <li>
-            <Link className={style.howtolink} to="#howtobuy">
-              <h4 className={style.tobuylink}>How to buy?</h4>
-            </Link>
-          </li>
-        </ul>
+        <Link className={style.howtolink} to="#howtobuy">
+          <h4 className={style.tobuylink}>How to buy?</h4>
+        </Link>
       </div>
     </Fragment>
   );
