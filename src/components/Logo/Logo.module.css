@@ -1,0 +1,56 @@
+.whiteBrandLogo {
+  width: 23px;
+  float: left;
+  padding-bottom: 0px;
+  transition: 0.3s;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+
+.active {
+  width: 23px;
+  float: left;
+  padding-bottom: 0px;
+  transition: 0.3s;
+  margin-top: 5px;
+  margin-left: 10%;
+}
+.blackBrandLogo {
+  width: 23px;
+  float: left;
+  margin-left: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  transition: 0.3s;
+}
+
+@media (max-width: 913px) {
+  .whiteBrandLogo {
+    transition: 0.2s;
+  }
+  .blackBrandLogo {
+    transition: 0.2s;
+  }
+}
+@media (max-width: 938px) {
+  .whiteBrandLogo {
+    margin-left: 5%;
+    margin-right: 10px;
+    transition: 0.2s;
+  }
+  .blackBrandLogo {
+    margin-left: 5%;
+    margin-right: 10px;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 636px) {
+  .whiteBrandLogo {
+    display: none;
+  }
+
+  .whiteBrandLogocollapsed {
+    display: block;
+  }
+}

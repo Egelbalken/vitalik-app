@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+.btn {
+  font-family: Questrial;
+  font-size: 15px;
+  padding-top: 0px;
+  border-radius: 35px;
+  height: auto;
+  border: none;
+  padding: 0%;
+  background-color: transparent;
+  color: #efefef;
+  margin-top: 0px;
+  transition: 0.2s;
+  cursor: pointer;
+  position: relative;
+  animation: 0.5s ease-out 0s 1 slideup;
+  z-index: 1;
+}
+
+.btnRoadmap {
+  margin: 15px 10px 0px 100px;
+  background: #f5f5f5;
+  color: #888888;
+  width: 190px;
+  height: 80px;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: flex-start;
+  padding: 0px;
+  transition: 0.3s;
+  border: none;
+  z-index: 5;
+  position: relative;
+  z-index: 1;
+  animation: 0.5s ease-out 0s 1 slideup;
+}
+
+.btnRoadmap:hover {
+  background-color: #140c00;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.active {
+  position: relative;
+  margin: 15px 10px 0px 100px;
+  background: #322b21;
+  color: white;
+  width: 190px;
+  height: 80px;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: flex-start;
+  padding: 0px;
+  transition: 0.3s;
+  border: none;
+  z-index: 1;
+}
+
+.btnTelegram {
+  position: relative;
+  font-family: Questrial;
+  font-size: 15px;
+  float: none;
+  height: 40px;
+  border-radius: 25px;
+  margin-left: -0px;
+  width: 142px;
+  padding-top: 0px;
+  border: none;
+  margin-top: 2px;
+  text-align: center;
+  background-color: black;
+  transition: 0.2s;
+  justify-content: flex-start;
+  color: white;
+  z-index: 1;
+}
+
+.btnTelegram:hover {
+  background-color: #322b21;
+  transition: 0.2s;
+}
+
+.btnMore {
+  font-size: 18px;
+  background-color: #ffefd7;
+  width: 300px;
+  height: 60px;
+  margin-left: 100px;
+  padding: 15px;
+  border-radius: 30px;
+  margin-bottom: 100px;
+  color: black;
+  animation: 0.5s ease-out 0s 1 slideup;
+  float: left;
+  position: relative;
+  z-index: 2;
+}
+
+.btnMore:hover {
+  background-color: #f7f2ea;
+  color: black;
+}
+
+.unicryptLocker {
+  width: 25%;
+  color: white;
+  background-color: black;
+  transition: 0.2s;
+  margin: -100px 100px 100px;
+  float: right;
+  padding: 5px;
+  height: 62px;
+  font-size: 100%;
+  border-radius: 30px;
+  position: relative;
+  animation: 0.5s ease-out 0s 1 slideup;
+}
+
+.unicryptLocker:hover {
+  background-color: #322b21;
+  transition: 0.2s;
+}
+
+.btncardetherscan {
+  border: 2px solid white;
+  height: 100%;
+  font-size: 16px;
+  width: 170px;
+  padding: 18px;
+  position: relative;
+}
+
+.btncardetherscan:hover {
+  transform: translateY(-3px);
+  background-color: white;
+  color: black;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+@media screen and (max-width: 638px) {
+  .btnTelegram {
+    margin-top: 2px;
+    margin-left: 5px;
+    transition: 0.2s;
+    float: none;
+    display: none;
+  }
+  .btnRoadmap {
+    margin: auto auto 20px 50px;
+    float: left;
+  }
+
+  .active {
+    margin: auto auto 20px 50px;
+    float: left;
+  }
+
+  .unicryptLocker {
+    font-size: 23px;
+    width: 100%;
+    height: 60px;
+    border-radius: 0px;
+    transition: 0.2s;
+    margin: auto;
+    padding: 15px;
+  }
+  .btnMore {
+    font-size: 25px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 0px;
+    height: 60px;
+    width: 100%;
+
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1170px) {
+  .btnTelegram {
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 935px) {
+  .btnRoadmap {
+    margin: auto auto 20px 10px;
+  }
+
+  .active {
+    margin: auto auto 20px 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .btnRoadmap {
+    margin-left: 90px;
+    margin-right: 0px;
+  }
+
+  .active {
+    margin-left: 90px;
+    margin-right: 0px;
+  }
+}
+
+@keyframes slideup {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(-0%);
+  }
+}

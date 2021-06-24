@@ -1,0 +1,331 @@
+/* Upper on load effect*/
+.nav {
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  align-items: right;
+  justify-content: flex-start;
+  transition: 0.2s;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  animation: 0.5s ease-out 0s 1 slideup;
+}
+/* This section calls the slideInFromLeft animation we defined above */
+
+.telegrambtn {
+  margin-top: -110px;
+  border-bottom: none !important;
+  transition: 0.2s ease-out;
+}
+
+.telegram-Btn-distancer {
+  margin-left: 23px;
+  transition: 0.2s ease-out;
+}
+
+/* Upper on active effect*/
+.nav.active {
+  background-color: white;
+  width: 100%;
+  margin-top: -5px;
+  transition: 0.2s ease-out;
+}
+
+.nav.active ul li a {
+  margin: 15px 36px;
+  transition: 0.2s ease-out;
+  color: black;
+}
+
+.nav ul li {
+  display: block;
+  margin-bottom: 2em;
+  transition: 0.2s ease-out;
+}
+
+.nav.active ul {
+  height: 40px;
+  transition: 0.2s ease-out;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  height: 55px;
+  transition: 0.2s ease-out;
+}
+
+.nav ul li p {
+  margin-top: 14px;
+  margin-right: 21px;
+  margin-left: 21px;
+  font-size: 16px;
+  transition: 0.2s ease-out;
+}
+
+.nav ul li a {
+  transition: 0.2s ease-out;
+  margin: 15px 36px;
+  font-size: 15px;
+  color: lightgray;
+  display: inline-block;
+  border-bottom: 0px solid white;
+  vertical-align: center;
+}
+
+.nav ul li a:hover {
+  transition: 0.2s ease-out;
+  color: white;
+
+}
+
+.nav.active ul li a:hover {
+  transition: 0.2s ease-out;
+  color: black;
+
+}
+
+.nav ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: transparent;
+  transition: width 0.3s;
+}
+
+.nav.active ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fc6617;
+  transition: width 0.3s;
+}
+
+.nav ul li a:hover::after {
+  width: 100%;
+  color: white;
+  transition: 0.2s;
+  transition: 0.2s ease-out;
+  border-bottom: 2px solid white;
+}
+
+/* Collapsed bar function*/
+.bar-collapsed {
+  width: 40px;
+  transition: 0.2s;
+}
+
+.bar-collapsed:hover {
+  width: 50px;
+  transition: 0.2s ease-out;
+}
+
+.bar-times {
+  width: 40px;
+  margin-top: 50px;
+  margin-left: 50px;
+  transition: 0.2s ease-out;
+  position: fixed;
+}
+
+.bar-times:hover {
+  width: 50px;
+}
+
+.nav.active {
+  background-color: white;
+  width: 100%;
+  transition: 0.2s ease-out;
+}
+.overlay ul {
+  list-style: none;
+}
+
+.logo-text {
+  width: 60px;
+  margin-top: 50px;
+  margin-left: 210px;
+  transition: 0.5s ease-out;
+  display: block;
+}
+
+.logo-text:hover {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  transition: 0.5s ease-out;
+}
+
+.collapsed-ul {
+  clear: both;
+  vertical-align: middle;
+  position: absolute;
+}
+
+.menu-icon.collapsed.active {
+  display: block;
+  position: absolute;
+}
+
+@media (max-width: 940px) {
+  .nav ul li a {
+    margin: 15px 8px;
+    font-size: 15px;
+  }
+
+  .nav.active ul li a {
+    margin: 15px 8px;
+    font-size: 15px;
+  }
+
+  .nav ul li a:hover {
+    color: #322b21;
+    transition: 0.2s;
+    transition-property: unset;
+    transition: 0.2s;
+  }
+}
+.nav ul li i a.icon {
+  background: black;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Collapsed menu*/
+@media screen and (max-width: 633px) {
+  .nav.active {
+    display: none;
+  }
+
+  .nav ul li a:hover {
+    color: white;
+    transition: 2s;
+  }
+}
+
+@media (max-width: 633px) {
+  .nav {
+    height: 100px;
+  }
+  .nav ul li a {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 100%;
+    vertical-align: none;
+  }
+}
+
+@keyframes slidedown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideup {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(-0%);
+  }
+}
+
+@keyframes slidfromside {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(-0%);
+  }
+}
+
+/* Overlay for hamburger */
+
+.overlay {
+  width: 0%;
+  transition: 0.5s;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(233, 20, 20);
+  background-color: rgba(212, 18, 18, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  top: 25%;
+  width: 50%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay ul li a:hover::after {
+  width: 100%;
+  color: white;
+  transition: 0.2s;
+  transition: 0.2s ease-out;
+  border-bottom: none;
+}
+
+.overlay a {
+  text-decoration: none;
+  font-style: normal;
+  display: fixed;
+  transition: 0.3s;
+  display: block;
+}
+
+/*
+*/
+.overlay a:hover {
+  color: none;
+  border-bottom: none;
+  transition: 0s;
+}
+
+.overlay li {
+  display: block;
+  padding: 0px;
+  margin-left: 40mvh;
+  text-decoration: none;
+  font-size: 46px;
+  transition: 0.3s;
+  float: left;
+}
+
+.overlay ul {
+  position: fixed;
+  margin: 100px;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+  border-bottom: none !important;
+}
+
+.collapsed-logo {
+  align-items: center;
+  display: block;
+}

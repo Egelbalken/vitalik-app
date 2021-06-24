@@ -1,0 +1,261 @@
+.featureCardEarn {
+  top: 0;
+  left: 0;
+  background-size: cover;
+  font-weight: 100;
+  margin: auto;
+  line-height: 1.7;
+  padding: 65px;
+  height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: auto;
+  color: white;
+  background-color: black;
+  margin-top: 0px;
+  z-index: 5;
+  position: relative;
+  animation: 0.5s ease-out 0s 1 slideup;
+}
+
+.featureCardEarn:hover {
+  background-color: #322b21;
+  transition: 2s;
+}
+
+.featureCardBurn {
+  top: 0;
+  left: 0;
+  background-size: cover;
+  font-weight: 100;
+  margin: auto;
+  line-height: 1.7;
+  padding: 65px;
+  height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: auto;
+  color: black;
+  background-color: #fef0dd;
+  z-index: 5;
+  position: relative;
+  animation: 0.5s ease-out 0s 1 slideup;
+}
+
+.featureCardEquality {
+  top: 0;
+  left: 0;
+  background-size: cover;
+  font-weight: 100;
+  margin: auto;
+  line-height: 1.7;
+  padding: 65px;
+  height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: auto;
+  z-index: 5;
+  color: black;
+  animation: 0.5s ease-out 0s 1 slideup;
+  background-color: #c2deff;
+}
+
+.featureCardCharity {
+  top: 0;
+  left: 0;
+  background-size: cover;
+  font-weight: 100;
+  margin: auto;
+  line-height: 1.7;
+  padding: 65px;
+  height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: auto;
+  z-index: 5;
+  color: black;
+  animation: 0.5s ease-out 0s 1 slideup;
+  background-color: #e3f0ff;
+}
+
+.cardetherscan {
+  background-color: #c2deff;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  text-align: center;
+  margin-left: 50%;
+  z-index: 5;
+  position: relative;
+}
+
+.cardDextools {
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  text-align: center;
+  margin-left: 50%;
+  margin-top: -280px;
+  z-index: 5;
+  position: relative;
+}
+
+/*
+  Responsive
+  */
+.wrapper-grid {
+  display: grid;
+  grid-template-columns: minmax(910px 1fr);
+  justify-content: center;
+}
+
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 910px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .featureCardEarn {
+    font-size: 110%;
+    padding: 65px;
+    height: 390px;
+  }
+  .featureCardCharity {
+    font-size: 110%;
+    padding: 65px;
+    height: 380px;
+  }
+  .featureCardEquality {
+    font-size: 110%;
+    padding: 65px;
+    height: 380px;
+  }
+  .featureCardBurn {
+    font-size: 110%;
+    padding: 65px;
+    height: 380px;
+  }
+}
+
+@media screen and (min-width: 910px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .featureCardEarn {
+    font-size: 120%;
+    padding: 35px;
+    height: 420px;
+  }
+  .featureCardCharity {
+    font-size: 120%;
+    padding: 35px;
+    height: 420px;
+  }
+  .featureCardEquality {
+    font-size: 120%;
+    padding: 35px;
+    height: 420px;
+  }
+  .featureCardBurn {
+    font-size: 120%;
+    padding: 35px;
+    height: 420px;
+  }
+  .cardetherscan {
+    padding: 40px;
+  }
+}
+
+@media screen and (min-width: 1355px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .featureCardEarn {
+    font-size: 120%;
+  }
+  .featureCardCharity {
+    font-size: 120%;
+  }
+  .featureCardEquality {
+    font-size: 120%;
+  }
+  .featureCardBurn {
+    font-size: 120%;
+  }
+  .cardetherscan {
+    padding-top: 40px;
+    margin-bottom: 35px;
+    margin-left: 24%;
+    height: 300px;
+    width: 25%;
+  }
+
+  .cardDextools {
+    padding-top: 55px;
+    margin-right: 24%;
+    height: 300px;
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .cardetherscan {
+    padding-top: 65px;
+    margin-bottom: 35px;
+    margin-left: 24%;
+    height: 300px;
+    width: 24%;
+  }
+
+  .cardDextools {
+    margin-top: -335px;
+    padding-top: 65px;
+    margin-right: 24%;
+    height: 300px;
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 2200px) {
+  .cardetherscan {
+    margin-bottom: 35px;
+    margin-left: 8%;
+    height: 250px;
+    width: 40%;
+  }
+
+  .cardDextools {
+    margin-top: -285px;
+    padding-top: 45px;
+    margin-right: 9%;
+    height: 250px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .clear {
+    clear: both;
+  }
+
+  .cardetherscan {
+    float: none;
+    padding-top: 45px;
+    height: 250px;
+    width: 80%;
+    margin: 25px auto;
+  }
+
+  .cardDextools {
+    float: none;
+    padding-top: 45px;
+    margin: auto;
+    height: 250px;
+    width: 80%;
+  }
+}
+
+@keyframes slideup {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(-0%);
+  }
+}

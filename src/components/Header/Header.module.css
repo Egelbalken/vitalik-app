@@ -1,0 +1,41 @@
+.title {
+  margin-top: 300px !important;
+  margin-left: 0px;
+  color: #ebeae9;
+  z-index: 2;
+  animation: 0.5s ease-out 0s 1 slideup;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: 350;
+  animation: 0.5s ease-out 0s 1 slideup;
+}
+
+h2 {
+  font-size: 27px;
+  font-weight: 350;
+  animation: 0.5s ease-out 0s 1 slideup;
+}
+
+@keyframes slideup {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(-0%);
+  }
+}
+
+header{
+  animation: 0.5s ease-out 0s 1 slideup;
+}
