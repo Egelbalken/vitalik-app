@@ -20,7 +20,6 @@ const Card3d = (props) => {
         overflowX: 'hidden',
         transition: '0.5s'
       }}
-      cursorPointer="false"
       borderRadius="0px"
     >
       <div>

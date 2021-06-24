@@ -13,7 +13,6 @@
   background-color: black;
   margin-top: 0px;
   z-index: 5;
-  position: relative;
   animation: 0.5s ease-out 0s 1 slideup;
 }
 
