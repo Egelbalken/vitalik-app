@@ -8,8 +8,8 @@ const Card3d = (props) => {
       className={styleCard['card-inner']}
       style={{
         background: `${props.bgcolor}`,
-        width: '350px',
-        height: '450px',
+        width: '250px',
+        height: '350px',
         backgroundColor: `${props.bgcolor}`,
         backgroundImage: `url(${props.image})`,
         backgroundPosition: 'center center',
@@ -18,7 +18,7 @@ const Card3d = (props) => {
         cursor: 'none',
         zIndex: '1',
         overflowX: 'hidden',
-        transition: '0.5s'
+        transition: '0.5s',
       }}
       borderRadius="0px"
     >

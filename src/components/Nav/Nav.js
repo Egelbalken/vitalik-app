@@ -28,7 +28,7 @@ const Nav = (props) => {
 
   // Sets the navbar to show or not when in smaller screen mode.
   const showNavMenu = () => {
-    if (window.innerWidth <= 633) {
+    if (window.innerWidth <= 641) {
       setNavBarCollapsed(true);
     } else {
       setNavBarCollapsed(false);

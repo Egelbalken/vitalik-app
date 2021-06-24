@@ -20,6 +20,7 @@
   width: 100%;
   margin-top: -5px;
   transition: 0.2s ease-out;
+  top: 0;
 }
 
 .nav.active ul li a {
@@ -190,7 +191,7 @@
 }
 
 /* Collapsed menu*/
-@media screen and (max-width: 633px) {
+@media screen and (max-width: 641px) {
   .nav.active {
     display: none;
   }
@@ -201,7 +202,7 @@
   }
 }
 
-@media (max-width: 633px) {
+@media (max-width: 641px) {
   .nav {
     height: 100px;
   }

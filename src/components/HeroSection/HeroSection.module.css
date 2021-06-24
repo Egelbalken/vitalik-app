@@ -69,9 +69,9 @@
   position: relative;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 641px) {
   .title {
-    margin-top: 250px;
+    margin-top: 100px;
     margin-left: 10px;
   }
 
