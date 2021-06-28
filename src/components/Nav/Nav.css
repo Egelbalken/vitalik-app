@@ -139,7 +139,7 @@
 
 .logo-text {
   width: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-left: 30px;
   transition: 0.5s ease-out;
   display: block;
@@ -207,9 +207,9 @@
     height: 100px;
   }
   .nav ul li a {
-    margin-left: 20px;
-    margin-right: 90px;
-    font-size: 100%;
+    margin-left: 30px;
+    margin-right: 120px;
+    font-size: 80%;
     vertical-align: none;
   }
 }
@@ -305,7 +305,7 @@
 
 .overlay ul {
   position: fixed;
-  margin: 100px;
+  margin: 70px;
   transition: 0.3s;
   justify-content: center;
   align-items: baseline;

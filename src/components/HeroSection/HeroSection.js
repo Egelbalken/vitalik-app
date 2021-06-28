@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import style from '../HeroSection/HeroSection.module.css';
 import { HashLink as Link } from 'react-router-hash-link';
-import Movie from './1722881.mp4';
+import Movie from './video.mp4';
 
 const HeroSection = (props) => {
   return (

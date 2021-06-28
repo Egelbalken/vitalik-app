@@ -50,3 +50,21 @@
     padding: 2px;
   }
 }
+
+@media screen and (max-width: 320px) {
+
+  .footer {
+    margin-bottom: 0px;
+    padding-top: 70px;
+    margin-top: -110px;
+    height: 335px;
+    width: 100%;
+    line-height: 2;
+    background-color: black;
+    bottom: 0;
+    padding-left: 10px;
+  }
+  .footer span {
+    font-size: 14px;
+  }
+}
