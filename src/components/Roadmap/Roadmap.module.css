@@ -37,7 +37,7 @@
 }
 
 .scroll-left {
-  height: 10vh;
+  height: 20vh;
   overflow: hidden;
   position: relative;
   color: black;
@@ -50,7 +50,7 @@
   height: 100%;
   margin: 0;
   font-size: 500%;
-  line-height: 150px;
+  line-height: 200px;
   text-align: left;
   /* Starting position */
   transform: translateX(10%);

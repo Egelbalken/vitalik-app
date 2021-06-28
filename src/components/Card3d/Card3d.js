@@ -13,7 +13,7 @@ const Card3d = (props) => {
         backgroundColor: `${props.bgcolor}`,
         backgroundImage: `url(${props.image})`,
         backgroundPosition: 'center center',
-        backgroundSize: '130%',
+        backgroundSize: '140%',
         backgroundRepeat: 'none',
         cursor: 'none',
         zIndex: '1',
