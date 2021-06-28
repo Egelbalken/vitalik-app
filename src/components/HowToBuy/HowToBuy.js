@@ -23,7 +23,7 @@ const HowToBy = () => {
         />
         <div>
           <ul className={Card3dStyles['wrapper-grid']}>
-            <div className={Card3dStyles.card}>
+            <div>
               <li className={Card3dStyles['list-items']}>
                 <div>
                   <Card3d
@@ -35,11 +35,10 @@ const HowToBy = () => {
                 </div>
               </li>
             </div>
-            <div className={Card3dStyles.card}>
+            <div>
               <li className={Card3dStyles['list-items']}>
                 <div>
                   <Card3d
-                    className={Card3dStyles.card}
                     bgcolor="rgba(228,97,215,0.7777485994397759)"
                     title="Connect to Uniswap"
                     message="Uniswap is where you’ll be performing \n the swap of your current tokens to $VTLK tokens."
@@ -48,7 +47,7 @@ const HowToBy = () => {
                 </div>
               </li>
             </div>
-            <div className={Card3dStyles.card}>
+            <div>
               <li className={Card3dStyles['list-items']}>
                 <div>
                   <Card3d
