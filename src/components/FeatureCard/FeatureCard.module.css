@@ -161,36 +161,34 @@
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 400px) {
   .wrapper-grid {
     grid-template-columns: repeat(1, 1fr);
   }
   .featureCardEarn {
-    font-size: 120%;
+    font-size: 100%;
     padding: 35px;
-    height: 420px;
+    height: 520px;
   }
   .featureCardCharity {
     font-size: 120%;
     padding: 35px;
-    height: 420px;
+    height: 570px;
   }
   .featureCardEquality {
     font-size: 120%;
     padding: 35px;
-    height: 420px;
+    height: 520px;
   }
   .featureCardBurn {
     font-size: 120%;
     padding: 35px;
-    height: 420px;
+    height: 570px;
   }
   .cardetherscan {
     padding: 40px;
   }
 }
-
-
 
 @media screen and (min-width: 1355px) {
   .wrapper-grid {
