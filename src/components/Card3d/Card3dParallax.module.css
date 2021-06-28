@@ -1,0 +1,9 @@
+/* Testing for parallax text */
+.parallax-effect {
+  margin: 0;
+}
+
+/* Testing for parallax text */
+.parallax-effect.inner-element {
+  margin: 0;
+}

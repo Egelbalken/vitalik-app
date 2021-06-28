@@ -4,11 +4,6 @@
   z-index: 1;
 }
 
-.card:hover {
-  transition: 1s;
-  filter: 'normal';
-}
-
 .image {
   width: 20px;
   margin-left: -50px;
@@ -26,29 +21,15 @@
 }
 
 .message {
-  font-size: 10px;
-  margin-top: 5px;
-}
-
-.p {
   font-size: 14px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.h3 {
-  margin-top: 240px;
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .title {
-  padding: 10px;
-}
-
-.message {
-  transform: translateZ(50px);
-  display: block;
-  transform: translateZ(80px);
+  margin-top: 300px;
+  padding-left: 20px;
+  z-index: 289;
 }
 
 .card-inner {
@@ -66,6 +47,33 @@
   transition: 0.2s;
 }
 
+/* Trying to get a overlay over card
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(233, 20, 20);
+  background-color: rgba(212, 18, 18, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay:hover {
+  height: 0%;
+  width: 0%;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(233, 20, 20);
+  background-color: rgba(212, 18, 18, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+*/
 .card-inner:hover {
   transition: 0.2s;
   filter: none !important;
@@ -74,8 +82,8 @@
 
 .wrapper-grid {
   display: grid;
-  margin-left: 40%;
-  margin-right: 60%;
+  margin-left: 39%;
+  margin-right: 61%;
   justify-content: center;
 }
 

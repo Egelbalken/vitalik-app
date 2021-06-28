@@ -9,6 +9,8 @@
     "react": "^16.8.2",
     "react-animated-3d-card": "^1.0.2",
     "react-dom": "^16.8.2",
+    "react-parallax-hover": "^2.0.1",
+    "react-parallax-tilt": "^1.5.37",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.4.3",
