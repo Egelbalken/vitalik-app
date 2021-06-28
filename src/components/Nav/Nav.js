@@ -69,12 +69,15 @@ const Nav = (props) => {
                     src={BarsTimes}
                     alt="bars-solid.svg"
                   ></img>
-                  <Link to="#home">
-                    <img className="logo-text" src={logoText} alt="logo"></img>
-                  </Link>
                   <ul className="collapsed-ul">
-                    <li className="collapsed-logo">
-                      <Link to="#home">Home</Link>
+                    <li>
+                      <Link to="#home">
+                        <img
+                          className="logo-text"
+                          src={logoText}
+                          alt="logo"
+                        ></img>
+                      </Link>
                     </li>
                     <li className="collapsed-li">
                       <Link to="#feature">Feature</Link>
@@ -111,9 +114,7 @@ const Nav = (props) => {
                 </li>
                 <li>
                   {navbar ? (
-                    <form
-                      action="https://t.me/vtlkvitalik"
-                    >
+                    <form action="https://t.me/vtlkvitalik">
                       <button type="submit" className={btnStyle.btnTelegram}>
                         Join Telegram
                       </button>

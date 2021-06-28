@@ -1,5 +1,3 @@
-
-
 .featureCardEarn {
   top: 0;
   left: 0;
@@ -114,23 +112,23 @@
   }
   .featureCardEarn {
     font-size: 110%;
-    padding: 65px;
-    height: 390px;
+    padding: 45px;
+    height: 400px;
   }
   .featureCardCharity {
     font-size: 110%;
-    padding: 65px;
-    height: 380px;
+    padding: 45px;
+    height: 400px;
   }
   .featureCardEquality {
     font-size: 110%;
-    padding: 65px;
-    height: 380px;
+    padding: 45px;
+    height: 400px;
   }
   .featureCardBurn {
     font-size: 110%;
-    padding: 65px;
-    height: 380px;
+    padding: 35px;
+    height: 400px;
   }
 }
 
@@ -162,6 +160,37 @@
     padding: 40px;
   }
 }
+
+@media screen and (min-width: 400px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .featureCardEarn {
+    font-size: 120%;
+    padding: 35px;
+    height: 420px;
+  }
+  .featureCardCharity {
+    font-size: 120%;
+    padding: 35px;
+    height: 420px;
+  }
+  .featureCardEquality {
+    font-size: 120%;
+    padding: 35px;
+    height: 420px;
+  }
+  .featureCardBurn {
+    font-size: 120%;
+    padding: 35px;
+    height: 420px;
+  }
+  .cardetherscan {
+    padding: 40px;
+  }
+}
+
+
 
 @media screen and (min-width: 1355px) {
   .wrapper-grid {

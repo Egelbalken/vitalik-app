@@ -138,9 +138,9 @@
 }
 
 .logo-text {
-  width: 60px;
+  width: 40px;
   margin-top: 50px;
-  margin-left: 210px;
+  margin-left: 30px;
   transition: 0.5s ease-out;
   display: block;
 }
@@ -207,8 +207,8 @@
     height: 100px;
   }
   .nav ul li a {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 20px;
+    margin-right: 90px;
     font-size: 100%;
     vertical-align: none;
   }
@@ -265,7 +265,7 @@
   top: 25%;
   width: 50%;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .overlay ul li a:hover::after {
@@ -279,6 +279,7 @@
 .overlay a {
   text-decoration: none;
   font-style: normal;
+  font-weight: bold;
   display: fixed;
   transition: 0.3s;
   display: block;
@@ -295,9 +296,9 @@
 .overlay li {
   display: block;
   padding: 0px;
-  margin-left: 40mvh;
+  margin-left: 32mvh;
   text-decoration: none;
-  font-size: 46px;
+  font-size: 25px;
   transition: 0.3s;
   float: left;
 }
@@ -310,6 +311,7 @@
   align-items: baseline;
   display: inline-block;
   list-style: none;
+  margin-bottom: 10px;
 }
 
 .overlay a:hover,
