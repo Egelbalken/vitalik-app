@@ -1,14 +1,14 @@
 .hero-container {
   /*
   */
+  padding: 1px;
   background: url('../../images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg') center
     center/cover no-repeat;
   height: 110vh;
   width: 100%;
   z-index: 1;
-  padding: 1px;
-  margin-bottom: -480px;
-  transition: 0, 5s;
+  margin-bottom: 0px;
+  transition: 0.5s;
 }
 
 .video {
