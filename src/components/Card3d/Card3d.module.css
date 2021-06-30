@@ -1,18 +1,23 @@
 .card {
-  transition: 0.5s;
   display: block;
   z-index: 1;
   height: 410px;
   width: 310px;
   background-position: center center;
-  background-size: 140%;
   background-repeat: none;
-  z-index: 100;
+  background-size: 140%;
+  z-index: 10;
   overflow-x: hidden;
+  position: absolute;
+  transition: 1s;
+  padding: 20px;
+  transition: 2s;
 }
 
 .card:hover {
-  transition: 0.5s;
+  transition: 2s;
+  background-color: none !important;
+  position: absolute;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -22,99 +27,117 @@
   width: 20px;
   margin-left: -50px;
   display: block;
-  zoom: 10;
+  zoom: 120;
   overflow: hidden;
 }
 
 .list-items {
   list-style: none;
-  margin-top: 60px;
-  padding: 20px;
+  margin-right: 40px;
   display: flex;
   flex-direction: column;
 }
 
 .message {
   font-size: 20px;
+  font-weight: bolder;
+  color: #d5d3d1;
   line-height: 1.8;
   margin-top: -210px;
-  margin-left: -20px;
-  padding-left: 10px;
+  margin-left: 0px;
+  padding-left: 30px;
   padding-right: 100px;
-  z-index: 100;
+  z-index: 600;
   position: absolute;
   transition: 0.5s;
 }
 
 .title {
   margin-top: -280px;
-  margin-left: -10px;
-  padding-left: 0px;
+  color: #d5d3d1;
+  margin-left: 20px;
+  padding: 10px;
   font-size: 20px;
-  z-index: 100;
+  font-weight: bolder;
+  z-index: 600;
   position: absolute;
-  transition: 0.5s;
+  transition: 5s;
 }
 
-.overlay {
-  height: 100%;
+.card-inner {
+  background-position: center center;
+  background-repeat: none;
+  background-size: 140%;
   width: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(233, 20, 20);
-  background-color: rgba(212, 18, 18, 0.9);
-  overflow-x: hidden;
-  transition: 0.5s;
-}
-/* Trying to get a overlay over card
-
-.overlay:hover {
-  height: 0%;
-  width: 0%;
+  height: 100%;
+  z-index: 10;
+  transition: 5s;
   position: relative;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(233, 20, 20);
-  background-color: rgba(212, 18, 18, 0.9);
-  overflow-x: hidden;
-  transition: 0.5s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
-*/
+
 .card-inner:hover {
+  background-color: transparent;
   transition: 0.2s;
-  filter: none !important;
-  opacity: 1 !important;
 }
 
 .wrapper-grid {
   display: grid;
-  margin-left: 39%;
-  margin-right: 61%;
-  justify-content: center;
+  margin: auto;
 }
 
 @media screen and (max-width: 410px) {
   .wrapper-grid {
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
-    margin-top: -0px;
   }
   .list-items {
-    margin-top: 10px;
+    list-style: none;
+    margin-right: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .message {
+    color: #d5d3d1;
+    line-height: 1.8;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
-@media screen and (min-width: 910px) {
+@media screen and (max-width: 1252px) {
   .wrapper-grid {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     margin-top: -0px;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 90px;
   }
   .list-items {
     margin-top: 80px;
+  }
+  .message {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #d5d3d1;
+    line-height: 1.5;
+    margin-top: -210px;
+  }
+
+  .title {
+    margin-top: -280px;
+    color: #d5d3d1;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    z-index: 600;
+    position: absolute;
+    transition: 5s;
   }
 }
 
@@ -122,10 +145,88 @@
   .wrapper-grid {
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    padding: 150px;
+    padding-bottom: 50px;
+    padding-top: 90px;
+    padding-left: 550px;
+    padding-right: 550px;
+    width: 100%;
     margin: auto;
   }
   .list-items {
     margin-top: 80px;
   }
 }
+
+@media screen and (max-width: 2164px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-bottom: 50px;
+    padding-top: 90px;
+  }
+}
+@media screen and (max-width: 1930px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 350px;
+    padding-right: 350px;
+  }
+}
+@media screen and (max-width: 1930px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+}
+@media screen and (max-width: 1564px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+@media screen and (max-width: 1378px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .message {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #d5d3d1;
+    line-height: 1.8;
+    margin-top: -210px;
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-right: 100px;
+    z-index: 600;
+    position: absolute;
+    transition: 0.5s;
+  }
+
+  .title {
+    margin-top: -280px;
+    color: #d5d3d1;
+    margin-left: 20px;
+    padding: 2px;
+    font-size: 20px;
+  }
+}
+/*
+
+
+
+@media screen and (min-width: 984px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 50px;
+    padding-top: 90px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+*/

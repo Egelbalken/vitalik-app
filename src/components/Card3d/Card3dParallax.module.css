@@ -1,7 +1,6 @@
 /* Testing for parallax text */
 .parallax-effect {
-  transform: perspective(3000px);
-  background-size: contain;
-  z-index: 150;
   transition: 0.5s;
+  background-position: center center;
+  background-color: transparent;
 }

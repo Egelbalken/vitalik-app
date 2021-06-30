@@ -11,10 +11,12 @@ const CardInfo = (props) => {
       tiltMaxAngleX={30}
       tiltMaxAngleY={30}
       tiltEnable={true}
-      perspective={800}
+      perspective={1000}
       scale={1.1}
+      transitionSpeed={5000}
+      transitionEasing={'cubic-bezier(.03,.98,.52,.99)'}
     >
-      <div>{props.children}</div>
+      {props.children}
     </Tilt>
   );
 };

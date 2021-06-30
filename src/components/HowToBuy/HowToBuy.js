@@ -5,8 +5,8 @@ import cardStyle from '../Card/Card.module.css';
 import Card3d from '../Card3d/Card3d';
 import Card3dStyles from '../Card3d/Card3d.module.css';
 
-const metamaskRBGAColor = 'rgba(231,175,27,0.78)';
-const metamaskRBGColor = 'rgb(254, 138, 0)';
+const metamaskRBGAColor = 'rgba(231,175,27,0.77)';
+const metamaskRBGColor = 'white';
 const uniswapRBGAColor = 'rgba(228,97,215,0.7777485994397759)';
 const uniswapRBGColor = 'rgb(141, 169, 201)';
 const vtlkTokenRGBAcolor = 'rgba(64,138,77,0.78)';
