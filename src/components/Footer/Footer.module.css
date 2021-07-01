@@ -51,7 +51,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 333px) {
 
   .footer {
     margin-bottom: 0px;
@@ -62,7 +62,7 @@
     line-height: 2;
     background-color: black;
     bottom: 0;
-    padding-left: 10px;
+    padding-left: 0px;
   }
   .footer span {
     font-size: 14px;

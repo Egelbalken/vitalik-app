@@ -207,13 +207,11 @@
 
 @media screen and (max-width: 400px) {
   .btnRoadmap {
-    margin-left: 90px;
-    margin-right: 0px;
+    margin-left: 40px;
   }
 
   .active {
-    margin-left: 90px;
-    margin-right: 0px;
+    margin-left: 40px;
   }
 }
 

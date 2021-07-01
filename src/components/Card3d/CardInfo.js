@@ -8,8 +8,8 @@ const CardInfo = (props) => {
       className={styleParallax['parallax-effect']}
       tiltAngleXInitial={0}
       tiltAngleYInitial={0}
-      tiltMaxAngleX={30}
-      tiltMaxAngleY={30}
+      tiltMaxAngleX={10}
+      tiltMaxAngleY={10}
       tiltEnable={true}
       perspective={1000}
       scale={1.1}

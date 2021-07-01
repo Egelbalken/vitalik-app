@@ -1,8 +1,9 @@
 .tokenomics {
   text-align: center;
   justify-content: center;
+  font-size: 25px;
   padding-top: 5%;
-  padding-bottom: 8%;
+  padding-bottom: 5%;
   height: 100%;
   width: 100%;
   background-color: black;
@@ -23,6 +24,7 @@
 
 .title {
   color: #ffffff;
+  font-size: 40px;
 }
 
 @media screen and (max-width: 910px) {

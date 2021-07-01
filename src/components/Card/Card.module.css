@@ -1,10 +1,9 @@
-
 .cardetherscan {
   background-color: #c2deff;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   text-align: center;
-  margin-left: 50%;
+  margin-left: 400px;
   z-index: 5;
   position: relative;
 }
@@ -20,17 +19,93 @@
   position: relative;
 }
 
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 /*
 Responsive
 */
+
+@media screen and (min-width: 2200px) {
+  .cardetherscan {
+    padding-top: 65px;
+    margin-bottom: 35px;
+    margin-left: 5%;
+    height: 300px;
+    width: 44%;
+  }
+
+  .cardDextools {
+    margin-top: -335px;
+    padding-top: 65px;
+    height: 300px;
+    width: 45%;
+  }
+}
+
+/*
+*/
+@media screen and (max-width: 2200px) {
+  .cardetherscan {
+    padding-top: 65px;
+    margin-bottom: 35px;
+    margin-left: 3%;
+    height: 300px;
+    width: 44%;
+  }
+
+  .cardDextools {
+    margin-top: -335px;
+    padding-top: 65px;
+    margin-right: 2%;
+    height: 300px;
+    width: 45%;
+  }
+}
+
+
+@media screen and (min-width: 1355px) {
+  .cardetherscan {
+    animation: 0.5s ease-out 0s 1 slideup;
+    padding-top: 40px;
+    margin-bottom: 35px;
+    margin-left: 14%;
+    height: 300px;
+    width: 33%;
+  }
+  
+  .cardDextools {
+    animation: 0.5s ease-out 0s 1 slideup;
+    padding-top: 55px;
+    margin-right: 14%;
+    height: 300px;
+    width: 33%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .clear {
+    clear: both;
+  }
+  
+  .cardetherscan {
+    padding-top: 45px;
+    height: 250px;
+    width: 72%;
+    margin: 25px auto;
+  }
+  
+  .cardDextools {
+    padding-top: 45px;
+    margin: auto;
+    height: 250px;
+    width: 72%;
+  }
+}
+
 .wrapper-grid {
   display: grid;
   grid-template-columns: minmax(910px 1fr);
   justify-content: center;
-}
-
-.container {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (min-width: 910px) {
@@ -38,67 +113,58 @@ Responsive
     padding: 40px;
   }
 }
-
-@media screen and (min-width: 1355px) {
-  
+@media screen and (max-width: 650px) {
   .cardetherscan {
-    animation: 0.5s ease-out 0s 1 slideup;
-    padding-top: 40px;
-    margin-bottom: 35px;
-    margin-left: 24%;
-    height: 300px;
-    width: 25%;
-  }
-
-  .cardDextools {
-    animation: 0.5s ease-out 0s 1 slideup;
-    padding-top: 55px;
-    margin-right: 24%;
-    height: 300px;
-    width: 25%;
-  }
-}
-
-@media screen and (min-width: 2200px) {
-  .cardetherscan {
-    padding-top: 65px;
-    margin-bottom: 35px;
-    margin-left: 24%;
-    height: 300px;
-    width: 24%;
-  }
-
-  .cardDextools {
-    margin-top: -335px;
-    padding-top: 65px;
-    margin-right: 24%;
-    height: 300px;
-    width: 24%;
-  }
-}
-
-@media screen and (max-width: 2200px) {
-  .cardetherscan {
-    margin-bottom: 35px;
-    margin-left: 8%;
-    height: 250px;
-    width: 40%;
-  }
-
-  .cardDextools {
-    margin-top: -285px;
+    float: none;
     padding-top: 45px;
-    margin-right: 9%;
     height: 250px;
-    width: 40%;
+    width: 63%;
+    margin: 25px auto;
+  }
+
+  .cardDextools {
+    padding-top: 45px;
+    margin: auto;
+    height: 250px;
+    width: 63%;
   }
 }
 
-@media screen and (max-width: 910px) {
-  .clear {
-    clear: both;
+@media screen and (max-width: 650px) {
+  .cardetherscan {
+    padding-top: 45px;
+    height: 250px;
+    width: 65%;
+    margin: 25px auto;
   }
 
+  .cardDextools {
+    padding-top: 45px;
+    margin: auto;
+    height: 250px;
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .cardetherscan {
+    float: none;
+    padding-top: 45px;
+    height: 250px;
+    width: 75%;
+    margin: 25px auto;
+  }
+
+  .cardDextools {
+    float: none;
+    padding-top: 45px;
+    margin: auto;
+    height: 250px;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 435px) {
   .cardetherscan {
     float: none;
     padding-top: 45px;
@@ -113,6 +179,42 @@ Responsive
     margin: auto;
     height: 250px;
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 366px) {
+  .cardetherscan {
+    float: none;
+    padding-top: 45px;
+    height: 250px;
+    width: 90%;
+    margin: 25px auto;
+  }
+
+  .cardDextools {
+    float: none;
+    padding-top: 45px;
+    margin: auto;
+    height: 250px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 366px) {
+  .cardetherscan {
+    float: none;
+    padding-top: 45px;
+    height: 250px;
+    width: 95%;
+    margin: 25px auto;
+  }
+
+  .cardDextools {
+    float: none;
+    padding-top: 45px;
+    margin: auto;
+    height: 250px;
+    width: 95%;
   }
 }
 @keyframes slideup {

@@ -22,12 +22,14 @@ const Card3d = (props) => {
             backgroundPosition: 'center center',
             margin: 'auto',
             width: '100%',
-            
+            display: 'block',
+            marginLeft: 'auto',
+            marginRight: 'auto',
           }}
           tiltAngleXInitial={0}
           tiltAngleYInitial={0}
-          tiltMaxAngleX={18}
-          tiltMaxAngleY={18}
+          tiltMaxAngleX={20}
+          tiltMaxAngleY={20}
           tiltEnable={true}
           perspective={1000}
           transitionSpeed={5000}
@@ -39,6 +41,11 @@ const Card3d = (props) => {
             style={{
               backgroundImage: `url(${props.image})`,
               backgroundColor: `${props.bgRGBAcolor}`,
+              display: 'block',
+              marginLeft: 'auto',
+              marginRight: 'auto',
+              margin: '0 auto', 
+              maxWidth: '99%',
             }}
           ></div>
         </Card>
