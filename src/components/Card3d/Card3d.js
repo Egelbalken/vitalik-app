@@ -10,7 +10,7 @@ const Card3d = (props) => {
   const title = props.title;
   const message = props.message;
   return (
-    <Card3dOverlay>
+    <Card3dOverlay backgroundColor={props.bgRGBAcolor}>
       <CardInfo className={styleCard.overlay} title={title} message={message}>
         <Card
           className={styleCard.card}
@@ -33,18 +33,17 @@ const Card3d = (props) => {
           tiltEnable={true}
           perspective={1000}
           transitionSpeed={5000}
-          transitionEasing={'cubic-bezier(.03,.98,.52,.99)'}
           scale={1}
         >
           <div
             className={styleCard['card-inner']}
             style={{
               backgroundImage: `url(${props.image})`,
-              backgroundColor: `${props.bgRGBAcolor}`,
+              backgroundColor: `${props.bgRGBcolor}`,
               display: 'block',
               marginLeft: 'auto',
               marginRight: 'auto',
-              margin: '0 auto', 
+              margin: '0 auto',
               maxWidth: '99%',
             }}
           ></div>

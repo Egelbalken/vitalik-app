@@ -6,16 +6,16 @@ import Card3d from '../Card3d/Card3d';
 import Card3dStyles from '../Card3d/Card3d.module.css';
 
 const metamaskRBGAColor = 'rgba(231,175,27,0.77)';
-const metamaskRBGColor = 'white';
+const metamaskRBGColor = 'rgb(192,192,192)';
 const uniswapRBGAColor = 'rgba(228,97,215,0.7777485994397759)';
-const uniswapRBGColor = 'rgb(141, 169, 201)';
+const uniswapRBGColor = 'rgb(192,192,192)';
 const vtlkTokenRGBAcolor = 'rgba(64,138,77,0.78)';
-const vtlkTokenRGBcolor = 'rgb(136, 136, 136)';
+const vtlkTokenRGBcolor = 'rgb(192,192,192)';
 
 const HowToBy = () => {
   // Overlay on card. Change when hover on card from a allmouste none transparant to transparant.
   // Do it to change state of hover and sett a overlay
-
+  // OBS State or fix tthe overlay and the silvercard property.
   // Change
 
   return (

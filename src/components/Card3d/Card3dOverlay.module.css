@@ -1,18 +1,20 @@
 .overlay {
   height: 100%;
   width: 100%;
-  z-index: 800;
+  z-index: 1200;
   top: 0;
   left: 0;
-  transition: 5s;
+  position: relative;
 }
 /* Trying to get a overlay over card
   */
 
 .overlay:hover {
+  height: 100%;
+  width: 100%;
   position: relative;
+  background-color: white;
   z-index: 1;
   top: 0;
   left: 0;
-  transition: 5s;
 }
