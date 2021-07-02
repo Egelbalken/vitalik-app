@@ -5,12 +5,13 @@ import cardStyle from '../Card/Card.module.css';
 import Card3d from '../Card3d/Card3d';
 import Card3dStyles from '../Card3d/Card3d.module.css';
 
+const bgRGBSilvercolor = 'rgb(192,192,192)';
 const metamaskRBGAColor = 'rgba(231,175,27,0.77)';
-const metamaskRBGColor = 'rgb(192,192,192)';
+const metamaskRBGColor = 'rgba(231,175,27,0.97)';
 const uniswapRBGAColor = 'rgba(228,97,215,0.7777485994397759)';
-const uniswapRBGColor = 'rgb(192,192,192)';
+const uniswapRBGColor = 'rgba(228,97,215,0.9777485994397759)';
 const vtlkTokenRGBAcolor = 'rgba(64,138,77,0.78)';
-const vtlkTokenRGBcolor = 'rgb(192,192,192)';
+const vtlkTokenRGBcolor = 'rgba(64,138,77,0.98)';
 
 const HowToBy = () => {
   // Overlay on card. Change when hover on card from a allmouste none transparant to transparant.
@@ -41,6 +42,7 @@ const HowToBy = () => {
                   <Card3d
                     bgRGBAcolor={metamaskRBGAColor}
                     bgRGBcolor={metamaskRBGColor}
+                    bgRGBSilvercolor={bgRGBSilvercolor}
                     title="Download MetaMask"
                     message="Go to Metamask.io and download the wallet to your phone or chrome/firefox  browser."
                     image="https://www.bitdegree.org/crypto/storage/media/images/metamask-wallet-review-logo-big.png"
@@ -54,8 +56,9 @@ const HowToBy = () => {
                   <Card3d
                     bgRGBAcolor={uniswapRBGAColor}
                     bgRGBcolor={uniswapRBGColor}
+                    bgRGBSilvercolor={bgRGBSilvercolor}
                     title="Connect to Uniswap"
-                    message="Uniswap is where you’ll be performing \n the swap of your current tokens to $VTLK tokens."
+                    message="Uniswap is where you’ll be performing the swap of your current tokens to $VTLK tokens."
                     image="https://cryptologos.cc/logos/uniswap-uni-logo.png?v=010"
                   />
                 </div>
@@ -67,6 +70,7 @@ const HowToBy = () => {
                   <Card3d
                     bgRGBAcolor={vtlkTokenRGBAcolor}
                     bgRGBcolor={vtlkTokenRGBcolor}
+                    bgRGBSilvercolor={bgRGBSilvercolor}
                     title="Add VTLK token"
                     message="
                     0x2a8941f8f6fc283fd1222a6eda1"

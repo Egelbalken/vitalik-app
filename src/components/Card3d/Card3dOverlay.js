@@ -1,10 +1,9 @@
 import React from 'react';
 import OverlayModal from './Card3dOverlay.module.css';
-import CardOverlay from 'react-parallax-tilt';
 
 const Card3dOverlay = (props) => {
   return (
-    <CardOverlay
+    <div
       className={OverlayModal.overlay}
       style={{
         backgroundColor: `${props.backgroundColor}`,
@@ -13,7 +12,7 @@ const Card3dOverlay = (props) => {
       }}
     >
       {props.children}
-    </CardOverlay>
+    </div>
   );
 };
 
