@@ -1,0 +1,48 @@
+    //////  To to 2021-04-27  //////
+     
+    Vitalik Single page application
+
+KLAR - Server on DigitalOcen
+
+- Kravspecifikation ej deklarerad. (Vilka funktioner behövs på sidan.)
+
+- Betsämma val av typ av framework/bibliotek. NextJS or React.
+
+- Bestämma Design ( Bolla ideér om upplägg med refrenser från nedan)
+	https://cardano.org/
+	https://makerdao.com/en/
+	https://makerdao.com/en/
+
+- Sätta upp Github.
+
+- Sätta upp Team Vitalik, Anders och Kent.
+
+- Starta upp ett singlepage projekt.
+
+
+//////////////////////////////////////////
+
+    			TO DO
+
+//////////////////////////////////////////
+
+
+* Sätta upp sidan på servern - Travarse
+
+
+#################  Deploy ########################
+
+Vitaliktoken.com
+
+Droplet:
+
+https://cloud.digitalocean.com/projects/19aed0e2-c971-43ed-8009-8677bc48902b/resources?i=644d21
+
+Logga in på digital ocean med:
+vitalikvtlktoken@gmail.com
+VitalDavid123!"#
+
+Lösen till dropletten är VitalDavid123!"#a
+
+
+##################################################
